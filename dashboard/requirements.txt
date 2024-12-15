@@ -1,0 +1,5 @@
+mysql-connector-python
+pandas
+dash
+plotly
+python-dotenv

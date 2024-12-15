@@ -1,0 +1,41 @@
+/* Estilos generales */
+body {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom,#c5ebf8 ,#c7c1c1, #2c6bb4);;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+/* Contenedor de gráficos */
+.grid-container {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(6, 1fr); /* 6 columnas de igual tamaño */
+    grid-template-rows: auto auto; /* 2 filas */
+    grid-template-areas: 
+        "a a b b c c" /* Primera fila */
+        "d d d e e e"; /* Segunda fila */
+    gap: 5px; /* Espacio entre celdas */
+}
+
+.grid-item {
+    border: 1px solid #000; /* Bordes para visualizar las celdas */
+    margin: 3px;
+    padding: 0px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+.grid-item:nth-child(1) { grid-area: a;}
+.grid-item:nth-child(2) { grid-area: b;}
+.grid-item:nth-child(3) { grid-area: c;}
+.grid-item:nth-child(4) { grid-area: d;}
+.grid-item:nth-child(5) { grid-area: e;}
+
