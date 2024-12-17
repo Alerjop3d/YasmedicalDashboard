@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source .dashboard\.venv\Scripts\activate
-python app.py & 
+source app/.Unix/bin/activate
+python app/Main.py  
+read -p "Presiona Enter para continuar..."

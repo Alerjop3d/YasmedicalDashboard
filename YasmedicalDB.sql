@@ -125,6 +125,7 @@ INSERT INTO suministra (rut_proveedor, fecha_suministro, codigo) VALUES
 ('23456722-0', '2024-11-01', 'INSUMO002');
 
 INSERT INTO Facturas (rut_cliente, cod_producto, valor_producto, rut, cantidad, fecha) VALUES
+('34567890-1', 'INSUMO003', 10.75, '23456789-2', 500, '2024-01-10'),
 ('45678901-2', 'INSUMO005', 5.00, '23456789-2', 2, '2023-11-01'),
 ('45678901-2', 'INSUMO004', 30.00, '23456789-2', 5, '2024-09-01'),
 ('12345678-9', 'INSUMO007', 0.75, '12345678-1', 6, '2024-07-22'),
