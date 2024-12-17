@@ -25,3 +25,5 @@ Puedes lanzar la aplicación utilizando el script proporcionado. Dependiendo de 
   ```bash
   chmod +x Run.sh
   ./Run.sh
+
+![Captura de pantalla de la aplicación](image.png)
