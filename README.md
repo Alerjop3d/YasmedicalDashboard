@@ -1,6 +1,6 @@
 # YasmedicalDashboard
 
-Aplicacion desarrollada en python para ilustrar un dashboard de una empresa dedicada a la distribucion de insumos medicos llamada Yasmedica.
+Aplicacion desarrollada en python para ilustrar un dashboard de una empresa dedicada a la distribucion de insumos medicos llamada Yasmedical.
 
 ## Requisitos
 
@@ -15,11 +15,13 @@ Puedes lanzar la aplicación utilizando el script proporcionado. Dependiendo de 
 
 - Para Windows, ejecuta el script PowerShell:
   ```powershell
-  .\launch.ps1
+  .\run.ps1
+
+- Para Windows tambien, como alternativa a Powershell usando el cmd
+  ```cmd
+  .\run.bat
   
 - Para Linux, otorga los permisos y ejecuta el script Shell:
   ```bash
   chmod +x Run.sh
   ./Run.sh
-
-  
