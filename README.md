@@ -24,6 +24,6 @@ Puedes lanzar la aplicación utilizando el script proporcionado. Dependiendo de 
 - Para Linux, otorga los permisos y ejecuta el script Shell:
   ```bash
   chmod +x Run.sh
-  ./Run.sh
+  ./run.sh
 
 ![Captura de pantalla de la aplicación](image.png)
