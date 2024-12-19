@@ -12,12 +12,12 @@ if (Test-Path "app\.venv") {
     python -m venv app\.venv
 }
 
-& .\app\.venv\Scripts\Activate.ps1
-
 if (-not (Test-Path "app\.venv\Scripts\Activate.ps1")) {
     Write-Host "Instalando dependencias desde requirements.txt..."
     pip install -r app\requirements.txt
 }
+
+& .\app\.venv\Scripts\Activate.ps1
 
 Write-Host "Iniciando dashboard..."
 python app\Main.py

@@ -19,7 +19,6 @@ elif value == '2':
 else:
     print("Opción no válida")
 
-
 facturacion_anual = df[0]
 top_suministros = df[1]
 top_vendedores = df[2]

@@ -48,8 +48,6 @@ else
     pip install -r app/requirements.txt
 fi
 
-source app/.venv/bin/activate
-
 echo "- iniciando la aplicación..."
 python app/Main.py
 
